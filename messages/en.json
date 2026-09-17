@@ -1,0 +1,338 @@
+{
+  "Header": {
+    "nav": {
+      "philosophy": "Philosophy",
+      "ritual": "Ritual",
+      "collection": "Collection",
+      "values": "Values",
+      "testimonials": "Testimonials",
+      "journal": "Journal"
+    }
+  },
+  "LanguageSwitcher": {
+    "changeLanguage": "Change Language",
+    "toggle": "EN / MS",
+    "english": "English",
+    "malay": "Melayu"
+  },
+  "Hero": {
+    "title1": "ND",
+    "title2": "Natural Products",
+    "subtitle1": "Skincare, unrefined.",
+    "subtitle2": "From the earth, to the skin.",
+    "scroll": "Scroll to explore"
+  },
+  "BrandStory": {
+    "eyebrow": "Our Philosophy",
+    "heading": "Nature, refined with purpose.",
+    "p1": "At ND Natural Products, we believe in the enduring value of natural ingredients.",
+    "p2": "From traditional olive and laurel oils to carefully selected botanical extracts, every ingredient is chosen for its quality, character and purpose.",
+    "p3": "We create products that bring together the simplicity of nature with thoughtful formulation — without unnecessary fillers or artificial fragrances.",
+    "p4": "Pure ingredients. Thoughtful formulations. A timeless approach to natural care."
+  },
+  "TheRitual": {
+    "eyebrow": "The Ritual",
+    "heading": "From Raw to Refined",
+    "steps": {
+      "1": {
+        "title": "Harvest",
+        "desc": "We forage wild laurel berries and organic castor beans by hand, waiting for the precise moment of peak potency."
+      },
+      "2": {
+        "title": "Cold-Press",
+        "desc": "Using traditional wooden presses, we slowly extract the rich, dense oils without applying destructive heat."
+      },
+      "3": {
+        "title": "REST & MATURE",
+        "desc": "Our soap is given time to rest and mature naturally, allowing its texture and character to develop"
+      },
+      "4": {
+        "title": "REFINE",
+        "desc": "Every product is carefully finished and prepared, with attention to quality, presentation and the natural character of its ingredients."
+      }
+    }
+  },
+  "TheCollection": {
+    "eyebrow": "The Collection",
+    "heading": "Available Now",
+    "shopNow": "Shop Now",
+    "keyBenefits": "Key Benefits",
+    "ingredients": "Ingredients",
+    "applicationNote": "Application Note",
+    "products": {
+      "soap": {
+        "name": "Authentic Aleppo Olive & Laurel Soap (Sabun Zaitun)",
+        "description": "A traditional natural soap that gently cleanses while helping maintain the skin’s natural balance. Suitable for oily, combination and sensitive skin, it leaves the skin feeling clean, soft and refreshed.\nIdeal for face & body. Suitable for men, women & children.",
+        "note": "Handcrafted in Aleppo. Naturally timeless.",
+        "benefits": [
+          "Helps cleanse excess oil",
+          "Helps soothe mild irritation & itching",
+          "Leaves skin soft and balanced",
+          "Gentle for everyday use"
+        ],
+        "ingredients": [
+          "Olive Oil 80%",
+          "Laurel Oil 20%",
+          "Water",
+          "Sodium Hydroxide"
+        ]
+      },
+      "oil": {
+        "name": "Pure Castor Oil",
+        "tagline": "A rich natural oil that helps nourish and strengthen hair and beards while giving them a natural shine.",
+        "description": "It also helps care for eyelashes and eyebrows, enhancing their appearance for a fuller, healthier look.\nIdeal for hair, beards, eyelashes & eyebrows. Suitable for men & women.",
+        "note": "Naturally nourishing. Pure and versatile.",
+        "applicationNote": "Under-eye care: Use only two drops and gently massage it in. Do not apply too much. Best used before bedtime.",
+        "benefits": [
+          "Nourishes and strengthens hair & beards",
+          "Gives hair a healthy, natural shine",
+          "Enhances eyelashes & eyebrows for a fuller look",
+          "Deeply moisturizes the delicate under-eye area"
+        ],
+        "ingredients": [
+          "100% Pure Castor Oil"
+        ]
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Social Proof",
+    "reviews": {
+      "1": {
+        "quote": "I love how simple and natural the Sabun Zaitun feels. It cleans my skin without leaving it feeling overly dry, and I especially enjoy using it on my face.",
+        "author": "Nur Aisyah — Penang, Malaysia",
+        "product": "Sabun Zaitun"
+      },
+      "2": {
+        "quote": "Very impressed with the texture of the Castor Oil. I use a small amount on my hair and eyebrows, and it leaves them feeling nourished with a beautiful natural shine.",
+        "author": "Mei Lin — Singapore",
+        "product": "Castor Oil"
+      },
+      "3": {
+        "quote": "I’ve been using the Castor Oil on my beard and hair. It feels rich and nourishing, and I really like the natural shine it gives my beard.",
+        "author": "Amir Hakim — Kuala Lumpur, Malaysia",
+        "product": "Castor Oil"
+      },
+      "4": {
+        "quote": "The soap has such a unique traditional character. My skin feels clean and comfortable after using it, and I really appreciate that it is made in Aleppo.",
+        "author": "Haziq Rahman — Bandar Seri Begawan, Brunei",
+        "product": "Sabun Zaitun"
+      },
+      "5": {
+        "quote": "I’ve been enjoying the Sabun Zaitun as part of my daily routine. It feels gentle on my skin and leaves it feeling soft, clean and refreshed.",
+        "author": "Chloe Tan — Penang, Malaysia",
+        "product": "Sabun Zaitun"
+      }
+    }
+  },
+  "FAQ": {
+    "eyebrow": "QUESTIONS · PRODUCTS, USE & SHIPPING",
+    "heading": "Asked, answered",
+    "items": {
+      "1": {
+        "question": "What is Aleppo Soap made of, and where is it made?",
+        "answer": "Our Authentic Aleppo Soap contains 80% olive oil and 20% laurel oil, handcrafted in Aleppo, Syria, following the traditional Aleppian soap-making heritage."
+      },
+      "2": {
+        "question": "Who is Aleppo Soap suitable for, and how can I use it?",
+        "answer": "Aleppo Soap is suitable for oily, combination and sensitive skin, and can be used on both the face and body as part of your daily cleansing routine. It's also suitable for children and adults, depending on the individual's skin."
+      },
+      "3": {
+        "question": "How should I store my Aleppo Soap?",
+        "answer": "Keep the soap dry and well ventilated between uses. A draining soap dish is recommended to help the bar last longer."
+      },
+      "4": {
+        "question": "What is Castor Oil used for, and who can use it?",
+        "answer": "Castor Oil can be used to nourish hair and beards and enhance their natural shine, as well as to care for eyebrows and eyelashes. It's suitable for both adult men and women."
+      },
+      "5": {
+        "question": "How do I apply Castor Oil to my hair, beard, eyebrows or eyelashes?",
+        "answer": "For hair and beard, apply a small amount and massage gently, adjusting the amount to your hair type and desired finish. For eyebrows and eyelashes, apply a small amount carefully, avoiding direct contact with the eyes."
+      },
+      "6": {
+        "question": "Is Castor Oil suitable for children?",
+        "answer": "Castor Oil has a naturally rich, thick texture that may feel too heavy for regular use on children's skin or hair. However, a small amount may be used on dry or rough patches to help moisturize and soothe the skin — we recommend a patch test first."
+      },
+      "7": {
+        "question": "Where do you ship, and how can I place an order?",
+        "answer": "We currently offer shipping within Malaysia, with more destinations to be introduced in the future. Orders can be placed through our available shopping platforms or via WhatsApp."
+      }
+    }
+  },
+  "Sustainability": {
+    "eyebrow": "CRAFT VALUES",
+    "heading": "Rooted in Nature",
+    "items": {
+      "1": {
+        "title": "Natural Ingredients",
+        "desc": "We carefully select natural ingredients based on their quality, character and purpose."
+      },
+      "2": {
+        "title": "Traditional Craft",
+        "desc": "We value time-honoured methods and traditional craftsmanship, while maintaining careful attention to quality."
+      },
+      "3": {
+        "title": "Quality First",
+        "desc": "Every product is selected and prepared with care, from the ingredients to the final presentation."
+      },
+      "4": {
+        "title": "Honest Simplicity",
+        "desc": "No unnecessary promises. Just thoughtfully chosen ingredients and products made with purpose."
+      }
+    }
+  },
+  "Newsletter": {
+    "eyebrow": "Join Us",
+    "heading": "The Apothecary Journal",
+    "desc": "Subscribe to receive field notes on botanical extraction, early access to small-batch runs, and raw skincare insights.",
+    "placeholder": "Email address",
+    "btnSubscribing": "...",
+    "btnSubscribed": "Subscribed",
+    "btnSubscribe": "Subscribe"
+  },
+  "Footer": {
+    "brandDesc1": "Natural care, thoughtfully selected. From nature to your daily ritual.",
+    "brandDesc2": "We believe in simple, quality products made with carefully selected natural ingredients and traditional craftsmanship.",
+    "explore": "Explore",
+    "connect": "Connect",
+    "links": {
+      "collection": "The Collection",
+      "philosophy": "Our Philosophy",
+      "ritual": "The Ritual",
+      "ingredients": "Ingredients",
+      "journal": "Journal",
+      "stockists": "Stockists",
+      "shipping": "Shipping Policy",
+      "returns": "Return Policy",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "© {year} ND Natural Products. All Rights Reserved.",
+    "operatedBy": "Operated by ND Global Trading (003878278-M)."
+  },
+  "Policies": {
+    "title": "Policies",
+    "backHome": "Back to Home",
+    "nav": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "shipping": "Shipping Policy",
+      "returns": "Return & Exchange Policy"
+    },
+    "lastUpdated": "Last Updated: 1 September 2026",
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro1": "ND Natural Products is a brand operated by ND Global Trading (003878278-M). We respect your privacy and are committed to protecting your personal information.",
+      "intro2": "This Privacy Policy explains how we collect, use, disclose, store and protect your personal data when you visit our website or contact us through our available communication channels.",
+      "sections": [
+        {
+          "title": "1. Information We Collect",
+          "p1": "We may collect personal information that you provide to us when you contact us, make an enquiry, submit a review, or visit our website. This may include your full name, email address, telephone/WhatsApp number, and technical information such as IP address.",
+          "p2": "If you purchase our products through third-party platforms such as Shopee or Lazada, your personal information may also be collected and processed by those platforms according to their respective privacy policies."
+        },
+        {
+          "title": "2. How We Use Your Personal Data",
+          "p1": "We use your personal data to respond to enquiries, provide customer support, improve our website and products, prevent fraud, comply with applicable laws, and send promotional communications where permitted."
+        },
+        {
+          "title": "3. Purchases Through Third-Party Platforms",
+          "p1": "Our website does not currently provide direct online checkout. Purchases made through third-party platforms (Shopee, Lazada, WhatsApp) are subject to their respective terms and privacy policies."
+        },
+        {
+          "title": "4. Sharing of Personal Data",
+          "p1": "We may disclose relevant personal information to trusted third parties to operate our business (e.g., website hosting, IT services, government authorities if required). We do not sell your personal information to third parties."
+        },
+        {
+          "title": "5. Cookies and Website Technologies",
+          "p1": "Our website may use cookies to keep the website functioning properly, remember preferences, and understand website traffic. You may disable cookies through your browser settings, which may affect some website functionality."
+        },
+        {
+          "title": "6. Direct Marketing & Protection",
+          "p1": "Where permitted, we may send you information about ND Natural Products. You can unsubscribe at any time. We take reasonable steps to protect your data, though no method of transmission is completely secure."
+        },
+        {
+          "title": "7. Retention & Your Rights",
+          "p1": "We retain personal data only for as long as reasonably necessary. You have the right to request access, correction, or deletion of your personal data, and withdraw consent where applicable."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "intro": "Welcome to ND Natural Products. By accessing our website, you agree to be bound by these Terms & Conditions.",
+      "sections": [
+        {
+          "title": "1. Product Information",
+          "p1": "We make reasonable efforts to ensure information on our website is accurate. However, product colours and appearance may vary slightly. Packaging may change, and natural products may naturally vary in colour, texture, or scent. Such variations do not indicate a defective product."
+        },
+        {
+          "title": "2. Purchasing & Prices",
+          "p1": "Our website currently does not provide direct online checkout. Customers may purchase through authorised channels (Shopee, Lazada, WhatsApp). Prices are stated in MYR / RM (Malaysian Ringgit) and may change without prior notice."
+        },
+        {
+          "title": "3. Product Use & Safety",
+          "p1": "Our products should be used according to their instructions. If you have specific skin concerns, review the ingredients and seek professional advice. We do not guarantee that every product is suitable for every individual. Our products are not intended to diagnose, treat, cure, or prevent diseases."
+        },
+        {
+          "title": "4. Intellectual Property & Website Use",
+          "p1": "All content on this website (branding, logos, photos, text) is owned by ND Natural Products. You may not reproduce or use our content commercially without permission. You also agree not to use the website for unlawful purposes or interfere with its operation."
+        },
+        {
+          "title": "5. Limitation of Liability",
+          "p1": "To the extent permitted by law, ND Natural Products shall not be responsible for losses resulting from circumstances beyond our reasonable control. These Terms & Conditions shall be governed by the laws of Malaysia."
+        }
+      ]
+    },
+    "shipping": {
+      "title": "Shipping Policy",
+      "sections": [
+        {
+          "title": "Delivery Within Malaysia",
+          "p1": "Orders delivered within Malaysia are estimated to arrive within 2–5 business days. The delivery cost is covered by ND Natural Products and included in the product price unless otherwise stated. Delivery times are estimates and may vary depending on couriers or unforeseen circumstances."
+        },
+        {
+          "title": "International Delivery",
+          "p1": "We currently offer international delivery to Singapore and Brunei, estimated to arrive within 3–7 business days. International delivery charges are paid by the customer. Customers are responsible for any customs duties, import taxes, or other charges imposed by the destination country."
+        },
+        {
+          "title": "Delivery Address & Delays",
+          "p1": "Customers are responsible for providing complete and accurate delivery addresses. We are not responsible for delivery issues caused by incorrect addresses. Delays may occur due to circumstances outside our control, including severe weather or courier delays."
+        }
+      ]
+    },
+    "returns": {
+      "title": "Return & Exchange Policy",
+      "intro": "Due to the nature of our personal-care and hygiene products, we do not accept general returns or exchanges simply because a customer has changed their mind, subject to any rights that cannot legally be excluded under applicable law.",
+      "sections": [
+        {
+          "title": "Incorrect Product Received",
+          "p1": "If you receive a product that is different from what you ordered directly from us, please contact us within 2 calendar days of receiving your order. We will arrange and cover the return of the incorrect product and provide the correct replacement after verification.",
+          "p2": "We do not offer cash refunds for incorrect-product cases as the standard resolution; the resolution will be replacement of the product."
+        },
+        {
+          "title": "How to Request a Replacement",
+          "p1": "Contact us within 2 calendar days and provide your order number, a description of the issue, and clear photographs of the product received."
+        },
+        {
+          "title": "Damaged Products",
+          "p1": "If your product arrives damaged, please contact us as soon as possible with clear photographs of the damaged product and packaging. We will determine the appropriate solution in accordance with applicable law."
+        },
+        {
+          "title": "Purchases Through Shopee or Lazada",
+          "p1": "For purchases made through Shopee or Lazada, customers may also be subject to the return, refund, exchange, and dispute procedures of the respective platform."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "For questions regarding our website, products or these policies, please contact:",
+      "company": "ND Natural Products",
+      "operatedBy": "Operated by ND Global Trading (003878278-M)",
+      "ssm": "SSM Registration No.: 003878278-M",
+      "addressTitle": "Business Address:",
+      "address": "B-18-2 IDAMAN SELASIH LILITAN SUNGAI ARA,\nSUNGAI ARA, BAYAN LEPAS 11900 PULAU PINANG",
+      "emailTitle": "Email:",
+      "phoneTitle": "WhatsApp / Phone:",
+      "rights": "© {year} ND Natural Products. All Rights Reserved."
+    }
+  }
+}

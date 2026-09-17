@@ -1,0 +1,338 @@
+{
+  "Header": {
+    "nav": {
+      "philosophy": "Falsafah",
+      "ritual": "Ritual",
+      "collection": "Koleksi",
+      "values": "Nilai",
+      "testimonials": "Testimoni",
+      "journal": "Jurnal"
+    }
+  },
+  "LanguageSwitcher": {
+    "changeLanguage": "Tukar Bahasa",
+    "toggle": "EN / MS",
+    "english": "English",
+    "malay": "Melayu"
+  },
+  "Hero": {
+    "title1": "ND",
+    "title2": "Natural Products",
+    "subtitle1": "Penjagaan kulit semula jadi.",
+    "subtitle2": "Dari alam semula jadi, untuk kulit anda.",
+    "scroll": "Tatal untuk teroka"
+  },
+  "BrandStory": {
+    "eyebrow": "Falsafah Kami",
+    "heading": "Alam semula jadi, ditapis dengan tujuan.",
+    "p1": "Di ND Natural Products, kami percaya akan nilai abadi bahan-bahan semula jadi.",
+    "p2": "Dari minyak zaitun dan laurel tradisional sehinggalah kepada ekstrak botani yang dipilih dengan teliti, setiap bahan dipilih kerana kualiti, watak dan tujuannya.",
+    "p3": "Kami mencipta produk yang menyatukan kesederhanaan alam dengan formulasi yang teliti — tanpa bahan pengisi atau pewangi tiruan yang tidak perlu.",
+    "p4": "Bahan-bahan tulen. Formulasi yang teliti. Pendekatan abadi kepada penjagaan semula jadi."
+  },
+  "TheRitual": {
+    "eyebrow": "Ritual",
+    "heading": "Dari Bahan Mentah Hingga yang Diperhalusi",
+    "steps": {
+      "1": {
+        "title": "Tuai",
+        "desc": "Kami mencari buah laurel liar dan biji kastor organik dengan tangan, menunggu masa yang tepat ketika potensinya berada di kemuncak."
+      },
+      "2": {
+        "title": "Tekanan Sejuk",
+        "desc": "Menggunakan penekan kayu tradisional, kami perlahan-lahan mengekstrak minyak yang kaya dan padat tanpa menggunakan haba yang memusnahkan."
+      },
+      "3": {
+        "title": "REHAT & MATANG",
+        "desc": "Sabun kami diberi masa untuk berehat dan matang secara semula jadi, membolehkan tekstur dan wataknya berkembang."
+      },
+      "4": {
+        "title": "PERHALUSI",
+        "desc": "Setiap produk disiapkan dan disediakan dengan teliti, dengan perhatian kepada kualiti, persembahan dan watak semula jadi bahan-bahannya."
+      }
+    }
+  },
+  "TheCollection": {
+    "eyebrow": "Koleksi",
+    "heading": "Tersedia Sekarang",
+    "shopNow": "Beli Sekarang",
+    "keyBenefits": "Kebaikan Utama",
+    "ingredients": "Ramuan",
+    "applicationNote": "Nota Penggunaan",
+    "products": {
+      "soap": {
+        "name": "Sabun Zaitun & Laurel Aleppo Asli (Sabun Zaitun)",
+        "description": "Sabun semula jadi tradisional yang membersih secara lembut sambil membantu mengekalkan keseimbangan semula jadi kulit. Sesuai untuk kulit berminyak, kombinasi dan sensitif, ia menjadikan kulit berasa bersih, lembut dan segar.\nSesuai untuk muka & badan. Sesuai untuk lelaki, wanita & kanak-kanak.",
+        "note": "Dibuat dengan tangan di Aleppo. Abadi secara semula jadi.",
+        "benefits": [
+          "Membantu membersihkan minyak berlebihan",
+          "Membantu melegakan kerengsaan ringan & kegatalan",
+          "Menjadikan kulit lembut dan seimbang",
+          "Lembut untuk kegunaan harian"
+        ],
+        "ingredients": [
+          "Minyak Zaitun 80%",
+          "Minyak Laurel 20%",
+          "Air",
+          "Natrium Hidroksida"
+        ]
+      },
+      "oil": {
+        "name": "Minyak Kastor Tulen",
+        "tagline": "Minyak semula jadi kaya yang membantu menyuburkan dan menguatkan rambut dan janggut sambil memberikan kilauan semula jadi.",
+        "description": "Ia juga membantu merawat bulu mata dan kening, meningkatkan penampilannya untuk kelihatan lebih lebat dan sihat.\nSesuai untuk rambut, janggut, bulu mata & kening. Sesuai untuk lelaki & wanita.",
+        "note": "Menyuburkan secara semula jadi. Tulen dan serba guna.",
+        "applicationNote": "Penjagaan bawah mata: Gunakan hanya dua titik dan urut perlahan-lahan. Jangan sapu terlalu banyak. Terbaik digunakan sebelum tidur.",
+        "benefits": [
+          "Menyuburkan dan menguatkan rambut & janggut",
+          "Memberikan rambut kilauan semula jadi yang sihat",
+          "Melebatkan bulu mata & kening untuk penampilan lebih penuh",
+          "Melembapkan kawasan bawah mata yang halus secara mendalam"
+        ],
+        "ingredients": [
+          "100% Minyak Kastor Tulen"
+        ]
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Bukti Sosial",
+    "reviews": {
+      "1": {
+        "quote": "Saya suka betapa mudah dan semula jadi rasanya Sabun Zaitun ini. Ia membersihkan kulit saya tanpa menjadikannya terlalu kering, dan saya sangat suka menggunakannya pada muka saya.",
+        "author": "Nur Aisyah — Pulau Pinang, Malaysia",
+        "product": "Sabun Zaitun"
+      },
+      "2": {
+        "quote": "Sangat kagum dengan tekstur Minyak Kastor. Saya menggunakan sedikit pada rambut dan kening saya, dan ia menjadikannya berasa subur dengan kilauan semula jadi yang cantik.",
+        "author": "Mei Lin — Singapura",
+        "product": "Minyak Kastor"
+      },
+      "3": {
+        "quote": "Saya telah menggunakan Minyak Kastor pada janggut dan rambut saya. Rasanya kaya dan berkhasiat, dan saya sangat suka kilauan semula jadi yang diberikannya pada janggut saya.",
+        "author": "Amir Hakim — Kuala Lumpur, Malaysia",
+        "product": "Minyak Kastor"
+      },
+      "4": {
+        "quote": "Sabun ini mempunyai ciri tradisional yang sangat unik. Kulit saya berasa bersih dan selesa selepas menggunakannya, dan saya sangat menghargai bahawa ia dibuat di Aleppo.",
+        "author": "Haziq Rahman — Bandar Seri Begawan, Brunei",
+        "product": "Sabun Zaitun"
+      },
+      "5": {
+        "quote": "Saya menikmati penggunaan Sabun Zaitun sebagai sebahagian daripada rutin harian saya. Rasanya lembut pada kulit saya dan menjadikannya berasa lembut, bersih dan segar.",
+        "author": "Chloe Tan — Pulau Pinang, Malaysia",
+        "product": "Sabun Zaitun"
+      }
+    }
+  },
+  "FAQ": {
+    "eyebrow": "SOALAN · PRODUK, PENGGUNAAN & PENGHANTARAN",
+    "heading": "Ditanya, dijawab",
+    "items": {
+      "1": {
+        "question": "Sabun Aleppo diperbuat daripada apa, dan di mana ia dibuat?",
+        "answer": "Sabun Aleppo Asli kami mengandungi 80% minyak zaitun dan 20% minyak laurel, dibuat dengan tangan di Aleppo, Syria, mengikut warisan pembuatan sabun tradisional Aleppo."
+      },
+      "2": {
+        "question": "Sabun Aleppo sesuai untuk siapa, dan bagaimana cara saya menggunakannya?",
+        "answer": "Sabun Aleppo sesuai untuk kulit berminyak, kombinasi dan sensitif, dan boleh digunakan pada muka dan badan sebagai sebahagian daripada rutin pembersihan harian anda. Ia juga sesuai untuk kanak-kanak dan orang dewasa, bergantung pada kulit individu."
+      },
+      "3": {
+        "question": "Bagaimana saya harus menyimpan Sabun Aleppo saya?",
+        "answer": "Pastikan sabun kering dan berventilasi baik di antara penggunaan. Bekas sabun yang mengalirkan air disyorkan untuk membantu sabun tahan lebih lama."
+      },
+      "4": {
+        "question": "Apakah kegunaan Minyak Kastor, dan siapa yang boleh menggunakannya?",
+        "answer": "Minyak Kastor boleh digunakan untuk menyuburkan rambut dan janggut dan meningkatkan kilauan semula jadinya, serta merawat kening dan bulu mata. Ia sesuai untuk lelaki dan wanita dewasa."
+      },
+      "5": {
+        "question": "Bagaimanakah saya sapu Minyak Kastor pada rambut, janggut, kening atau bulu mata saya?",
+        "answer": "Untuk rambut dan janggut, sapukan sedikit dan urut dengan lembut, sesuaikan kuantiti mengikut jenis rambut anda dan kemasan yang diingini. Untuk kening dan bulu mata, sapukan sedikit dengan berhati-hati, elakkan sentuhan langsung dengan mata."
+      },
+      "6": {
+        "question": "Adakah Minyak Kastor sesuai untuk kanak-kanak?",
+        "answer": "Minyak Kastor mempunyai tekstur semula jadi yang kaya dan tebal yang mungkin berasa terlalu berat untuk penggunaan biasa pada kulit atau rambut kanak-kanak. Walau bagaimanapun, sedikit minyak boleh digunakan pada bahagian yang kering atau kasar untuk membantu melembapkan dan melegakan kulit — kami mengesyorkan ujian tampal (patch test) terlebih dahulu."
+      },
+      "7": {
+        "question": "Ke mana anda membuat penghantaran, dan bagaimana saya boleh membuat pesanan?",
+        "answer": "Kami pada masa ini menawarkan penghantaran di dalam Malaysia, dengan lebih banyak destinasi akan diperkenalkan pada masa hadapan. Pesanan boleh dibuat melalui platform beli-belah yang tersedia atau melalui WhatsApp."
+      }
+    }
+  },
+  "Sustainability": {
+    "eyebrow": "NILAI KRAFTANGAN",
+    "heading": "Berakar pada Alam",
+    "items": {
+      "1": {
+        "title": "Bahan Semula Jadi",
+        "desc": "Kami memilih bahan semula jadi dengan teliti berdasarkan kualiti, watak dan tujuannya."
+      },
+      "2": {
+        "title": "Kraf Tradisional",
+        "desc": "Kami menghargai kaedah yang dihormati zaman dan ketukangan tradisional, sambil mengekalkan perhatian yang teliti terhadap kualiti."
+      },
+      "3": {
+        "title": "Kualiti Diutamakan",
+        "desc": "Setiap produk dipilih dan disediakan dengan teliti, dari ramuan hinggalah ke persembahan akhir."
+      },
+      "4": {
+        "title": "Kesederhanaan Jujur",
+        "desc": "Tiada janji yang tidak perlu. Hanya ramuan dan produk yang dipilih dengan teliti, dibuat dengan tujuan."
+      }
+    }
+  },
+  "Newsletter": {
+    "eyebrow": "Sertai Kami",
+    "heading": "Jurnal Apotekari",
+    "desc": "Langgan untuk menerima nota lapangan tentang pengekstrakan botani, akses awal kepada pengeluaran kumpulan kecil, dan pandangan penjagaan kulit yang mentah.",
+    "placeholder": "Alamat e-mel",
+    "btnSubscribing": "...",
+    "btnSubscribed": "Telah Dilanggan",
+    "btnSubscribe": "Langgan"
+  },
+  "Footer": {
+    "brandDesc1": "Penjagaan semula jadi, dipilih dengan teliti. Dari alam semula jadi ke ritual harian anda.",
+    "brandDesc2": "Kami percaya pada produk ringkas dan berkualiti yang dibuat dengan bahan semula jadi yang dipilih dengan teliti dan ketukangan tradisional.",
+    "explore": "Teroka",
+    "connect": "Hubungi",
+    "links": {
+      "collection": "Koleksi",
+      "philosophy": "Falsafah Kami",
+      "ritual": "Ritual",
+      "ingredients": "Ramuan",
+      "journal": "Jurnal",
+      "stockists": "Penyedia Stok",
+      "shipping": "Polisi Penghantaran",
+      "returns": "Polisi Pemulangan",
+      "privacy": "Dasar Privasi",
+      "terms": "Syarat Perkhidmatan"
+    },
+    "copyright": "© {year} ND Natural Products. Hak Cipta Terpelihara.",
+    "operatedBy": "Dijalankan oleh ND Global Trading (003878278-M)."
+  },
+  "Policies": {
+    "title": "Polisi",
+    "backHome": "Kembali ke Laman Utama",
+    "nav": {
+      "privacy": "Dasar Privasi",
+      "terms": "Terma & Syarat",
+      "shipping": "Polisi Penghantaran",
+      "returns": "Polisi Pemulangan & Pertukaran"
+    },
+    "lastUpdated": "Kemas Kini Terakhir: 1 September 2026",
+    "privacy": {
+      "title": "Dasar Privasi",
+      "intro1": "ND Natural Products ialah jenama yang dikendalikan oleh ND Global Trading (003878278-M). Kami menghormati privasi anda dan komited untuk melindungi maklumat peribadi anda.",
+      "intro2": "Dasar Privasi ini menerangkan cara kami mengumpul, menggunakan, mendedahkan, menyimpan dan melindungi data peribadi anda apabila anda melayari laman web kami atau menghubungi kami melalui saluran komunikasi yang tersedia.",
+      "sections": [
+        {
+          "title": "1. Maklumat yang Kami Kumpul",
+          "p1": "Kami mungkin mengumpul maklumat peribadi yang anda berikan kepada kami apabila anda menghubungi kami, membuat pertanyaan, menyerahkan ulasan, atau melayari laman web kami. Ini mungkin termasuk nama penuh, alamat e-mel, nombor telefon/WhatsApp, dan maklumat teknikal seperti alamat IP.",
+          "p2": "Jika anda membeli produk kami melalui platform pihak ketiga seperti Shopee atau Lazada, maklumat peribadi anda mungkin juga dikumpul dan diproses oleh platform tersebut mengikut dasar privasi masing-masing."
+        },
+        {
+          "title": "2. Bagaimana Kami Menggunakan Data Peribadi Anda",
+          "p1": "Kami menggunakan data peribadi anda untuk menjawab pertanyaan, menyediakan sokongan pelanggan, menambah baik laman web dan produk kami, mencegah penipuan, mematuhi undang-undang yang berkenaan, dan menghantar komunikasi promosi jika dibenarkan."
+        },
+        {
+          "title": "3. Pembelian Melalui Platform Pihak Ketiga",
+          "p1": "Laman web kami pada masa ini tidak menyediakan daftar keluar dalam talian secara langsung. Pembelian yang dibuat melalui platform pihak ketiga (Shopee, Lazada, WhatsApp) tertakluk pada terma dan dasar privasi masing-masing."
+        },
+        {
+          "title": "4. Perkongsian Data Peribadi",
+          "p1": "Kami mungkin mendedahkan maklumat peribadi yang berkaitan kepada pihak ketiga yang dipercayai untuk mengendalikan perniagaan kami (cth., pengehosan laman web, perkhidmatan IT, pihak berkuasa kerajaan jika perlu). Kami tidak menjual maklumat peribadi anda kepada pihak ketiga."
+        },
+        {
+          "title": "5. Kuki dan Teknologi Laman Web",
+          "p1": "Laman web kami mungkin menggunakan kuki untuk memastikan laman web berfungsi dengan baik, mengingati pilihan dan memahami trafik laman web. Anda boleh melumpuhkan kuki melalui tetapan pelayar anda, yang mungkin menjejaskan beberapa fungsi laman web."
+        },
+        {
+          "title": "6. Pemasaran Terus & Perlindungan",
+          "p1": "Jika dibenarkan, kami mungkin menghantar maklumat tentang ND Natural Products kepada anda. Anda boleh menyahlanggan pada bila-bila masa. Kami mengambil langkah yang munasabah untuk melindungi data anda, walaupun tiada kaedah penghantaran yang selamat sepenuhnya."
+        },
+        {
+          "title": "7. Pengekalan & Hak Anda",
+          "p1": "Kami mengekalkan data peribadi hanya selama yang semunasabahnya perlu. Anda berhak untuk meminta akses, pembetulan, atau pemadaman data peribadi anda, dan menarik balik persetujuan jika berkenaan."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terma & Syarat",
+      "intro": "Selamat datang ke ND Natural Products. Dengan melayari laman web kami, anda bersetuju untuk mematuhi Terma & Syarat ini.",
+      "sections": [
+        {
+          "title": "1. Maklumat Produk",
+          "p1": "Kami melakukan usaha yang munasabah untuk memastikan maklumat di laman web kami tepat. Walau bagaimanapun, warna dan rupa produk mungkin sedikit berbeza. Pembungkusan mungkin berubah, dan produk semula jadi secara semula jadinya mungkin berbeza dari segi warna, tekstur atau bau. Perbezaan sedemikian tidak menunjukkan produk yang rosak."
+        },
+        {
+          "title": "2. Pembelian & Harga",
+          "p1": "Laman web kami pada masa ini tidak menyediakan daftar keluar dalam talian secara langsung. Pelanggan boleh membeli melalui saluran yang sah (Shopee, Lazada, WhatsApp). Harga dinyatakan dalam MYR / RM (Ringgit Malaysia) dan mungkin berubah tanpa notis terlebih dahulu."
+        },
+        {
+          "title": "3. Penggunaan & Keselamatan Produk",
+          "p1": "Produk kami hendaklah digunakan mengikut arahannya. Jika anda mempunyai masalah kulit tertentu, semak ramuan dan dapatkan nasihat profesional. Kami tidak menjamin bahawa setiap produk sesuai untuk setiap individu. Produk kami tidak bertujuan untuk mendiagnosis, merawat, menyembuhkan atau mencegah penyakit."
+        },
+        {
+          "title": "4. Harta Intelek & Penggunaan Laman Web",
+          "p1": "Semua kandungan di laman web ini (penjenamaan, logo, foto, teks) dimiliki oleh ND Natural Products. Anda tidak boleh mengeluarkan semula atau menggunakan kandungan kami secara komersial tanpa kebenaran. Anda juga bersetuju untuk tidak menggunakan laman web untuk tujuan yang menyalahi undang-undang atau mengganggu operasinya."
+        },
+        {
+          "title": "5. Had Liabiliti",
+          "p1": "Setakat yang dibenarkan oleh undang-undang, ND Natural Products tidak akan bertanggungjawab ke atas kerugian akibat keadaan di luar kawalan munasabah kami. Terma & Syarat ini hendaklah ditadbir oleh undang-undang Malaysia."
+        }
+      ]
+    },
+    "shipping": {
+      "title": "Polisi Penghantaran",
+      "sections": [
+        {
+          "title": "Penghantaran Dalam Malaysia",
+          "p1": "Pesanan yang dihantar dalam Malaysia dianggarkan tiba dalam tempoh 2–5 hari perniagaan. Kos penghantaran ditanggung oleh ND Natural Products dan termasuk dalam harga produk melainkan dinyatakan sebaliknya. Masa penghantaran adalah anggaran dan mungkin berbeza bergantung pada kurier atau keadaan yang tidak dijangka."
+        },
+        {
+          "title": "Penghantaran Antarabangsa",
+          "p1": "Kami pada masa ini menawarkan penghantaran antarabangsa ke Singapura dan Brunei, dianggarkan tiba dalam tempoh 3–7 hari perniagaan. Caj penghantaran antarabangsa dibayar oleh pelanggan. Pelanggan bertanggungjawab untuk sebarang duti kastam, cukai import atau caj lain yang dikenakan oleh negara destinasi."
+        },
+        {
+          "title": "Alamat Penghantaran & Kelewatan",
+          "p1": "Pelanggan bertanggungjawab untuk memberikan alamat penghantaran yang lengkap dan tepat. Kami tidak bertanggungjawab untuk isu penghantaran yang disebabkan oleh alamat yang salah. Kelewatan mungkin berlaku disebabkan oleh keadaan di luar kawalan kami, termasuk cuaca buruk atau kelewatan kurier."
+        }
+      ]
+    },
+    "returns": {
+      "title": "Polisi Pemulangan & Pertukaran",
+      "intro": "Disebabkan oleh sifat produk penjagaan peribadi dan kebersihan kami, kami tidak menerima pemulangan atau pertukaran am semata-mata kerana pelanggan telah mengubah fikiran mereka, tertakluk kepada mana-mana hak yang tidak boleh dikecualikan di sisi undang-undang di bawah undang-undang yang berkenaan.",
+      "sections": [
+        {
+          "title": "Produk Salah Diterima",
+          "p1": "Jika anda menerima produk yang berbeza daripada yang anda pesan terus daripada kami, sila hubungi kami dalam masa 2 hari kalendar dari penerimaan pesanan anda. Kami akan mengatur dan menanggung pemulangan produk yang salah dan memberikan penggantian yang betul selepas pengesahan.",
+          "p2": "Kami tidak menawarkan bayaran balik tunai untuk kes produk salah sebagai penyelesaian standard; penyelesaiannya ialah penggantian produk."
+        },
+        {
+          "title": "Cara Meminta Penggantian",
+          "p1": "Hubungi kami dalam masa 2 hari kalendar dan berikan nombor pesanan anda, penerangan tentang isu, dan gambar produk yang diterima dengan jelas."
+        },
+        {
+          "title": "Produk Rosak",
+          "p1": "Jika produk anda tiba dalam keadaan rosak, sila hubungi kami secepat mungkin berserta gambar produk dan pembungkusan yang rosak dengan jelas. Kami akan menentukan penyelesaian yang sesuai mengikut undang-undang yang berkenaan."
+        },
+        {
+          "title": "Pembelian Melalui Shopee atau Lazada",
+          "p1": "Untuk pembelian yang dibuat melalui Shopee atau Lazada, pelanggan juga mungkin tertakluk kepada prosedur pemulangan, bayaran balik, pertukaran dan pertikaian platform masing-masing."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "intro": "Untuk soalan mengenai laman web kami, produk atau dasar ini, sila hubungi:",
+      "company": "ND Natural Products",
+      "operatedBy": "Dijalankan oleh ND Global Trading (003878278-M)",
+      "ssm": "No. Pendaftaran SSM: 003878278-M",
+      "addressTitle": "Alamat Perniagaan:",
+      "address": "B-18-2 IDAMAN SELASIH LILITAN SUNGAI ARA,\nSUNGAI ARA, BAYAN LEPAS 11900 PULAU PINANG",
+      "emailTitle": "E-mel:",
+      "phoneTitle": "WhatsApp / Telefon:",
+      "rights": "© {year} ND Natural Products. Hak Cipta Terpelihara."
+    }
+  }
+}

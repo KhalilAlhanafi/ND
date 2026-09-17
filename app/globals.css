@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-beige: var(--beige);
+  --color-taupe: var(--taupe);
+  --color-stone: var(--stone);
+  --color-sage: var(--sage);
+  --color-sage-dark: var(--sage-dark);
+  --color-warm-brown: var(--warm-brown);
+  --color-olive-gold: var(--olive-gold);
+  --color-ink: var(--ink);
+  --color-cream-white: var(--cream-white);
+  
+  --font-display: var(--font-fraunces), serif;
+  --font-body: var(--font-general-sans), sans-serif;
+}
+
+:root {
+  --beige: #EDE4D3;
+  --taupe: #B4A392;
+  --stone: #D3CDBF;
+  --sage: #8C9773;
+  --sage-dark: #5F6A4C;
+  --warm-brown: #A8623E;
+  --olive-gold: #B08D3E;
+  --ink: #2C2A24;
+  --cream-white: #FBF8F2;
+}
+
+body {
+  background-color: var(--beige);
+  color: var(--ink);
+  font-family: var(--font-general-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Base heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-fraunces), serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+/* Eyebrow / Label style */
+.eyebrow {
+  font-family: var(--font-fraunces), serif;
+  font-style: italic;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+@keyframes scroll {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(200%); }
+}
