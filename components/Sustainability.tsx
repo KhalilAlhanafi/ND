@@ -43,7 +43,7 @@ export default function Sustainability() {
   }, { scope: containerRef });
 
   return (
-    <section id="values" ref={containerRef} className="relative w-full text-cream-white min-h-screen flex items-center justify-center py-32 md:py-48 border-t border-stone/10 overflow-hidden">
+    <section id="values" ref={containerRef} className="relative w-full text-cream-white min-h-screen flex items-center justify-center py-20 md:py-48 border-t border-stone/10 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image 
@@ -62,7 +62,7 @@ export default function Sustainability() {
         <span className="eyebrow text-olive-gold mb-4 block">{t('eyebrow')}</span>
         <h2 className="text-4xl md:text-5xl font-display mb-16 drop-shadow-lg">{t('heading')}</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 md:gap-12 text-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 lg:gap-16 text-left">
           {valuesData.map((value, idx) => (
             <div key={idx} className="value-item flex flex-col border-t border-cream-white/20 pt-6">
               <h3 className="text-2xl font-display text-cream-white mb-4 drop-shadow-md">{t(`items.${value.key}.title`)}</h3>

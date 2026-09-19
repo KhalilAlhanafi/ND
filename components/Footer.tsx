@@ -44,7 +44,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-3 font-body text-sm text-ink">
               <li><a href="https://www.instagram.com/ndnatural_products?igsi=MXI4cHhweWNxaHRocQ==" target="_blank" rel="noopener noreferrer" className="hover:text-ink/70 transition-colors">Instagram</a></li>
               <li><a href="#journal" className="hover:text-ink/70 transition-colors">{t('links.journal')}</a></li>
-              <li><a href="mailto:Ndnaturalproducts@gmail.com" className="hover:text-ink/70 transition-colors">Ndnaturalproducts@gmail.com</a></li>
+              <li><a href="mailto:Ndnaturalproducts@gmail.com" className="hover:text-ink/70 transition-colors break-all">Ndnaturalproducts@gmail.com</a></li>
               <li><a href="#" className="hover:text-ink/70 transition-colors">{t('links.stockists')}</a></li>
             </ul>
           </div>

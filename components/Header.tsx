@@ -149,7 +149,7 @@ export default function Header() {
             
             {/* Mobile Hamburger Button */}
             <button
-              className={`md:hidden p-2 -mr-2 transition-colors duration-300 ${
+              className={`md:hidden p-3 -mr-3 transition-colors duration-300 ${
                 scrolled ? "text-ink" : "text-cream-white"
               }`}
               onClick={() => setIsMobileMenuOpen(true)}

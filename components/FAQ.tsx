@@ -47,7 +47,7 @@ export default function FAQ() {
                   <h3 className="font-body font-medium text-ink text-sm md:text-base pr-8">
                     {t(`items.${faq.key}.question`)}
                   </h3>
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full border border-stone flex items-center justify-center text-stone">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full border border-stone flex items-center justify-center text-stone">
                     <motion.span
                       animate={{ rotate: isOpen ? 45 : 0 }}
                       transition={{ duration: 0.3, ease: "easeInOut" }}

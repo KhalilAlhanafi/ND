@@ -88,12 +88,12 @@ export default function TheCollection() {
   return (
     <section id="collection" ref={containerRef} className="w-full bg-[#121E26] text-cream-white pt-32 pb-32">
       <div className="max-w-screen-2xl mx-auto px-6 md:px-12">
-        <div className="mb-24 md:mb-40 text-center">
+        <div className="mb-12 md:mb-40 text-center">
           <span className="eyebrow text-olive-gold mb-4 block">{t('eyebrow')}</span>
           <h2 className="text-4xl md:text-6xl font-display">{t('heading')}</h2>
         </div>
 
-        <div className="flex flex-col gap-32 md:gap-64">
+        <div className="flex flex-col gap-16 md:gap-64">
           {productsData.map((product, index) => {
             const isEven = index % 2 === 0;
             
@@ -116,7 +116,7 @@ export default function TheCollection() {
                 {/* Image Column */}
                 <div className="w-full md:w-3/5 flex flex-col gap-6">
                   {/* Main Image */}
-                  <div className="w-full h-[60vh] md:h-[85vh] relative overflow-hidden group">
+                  <div className="w-full h-[50vh] md:h-[85vh] relative overflow-hidden group">
                     <Image
                       src={product.image}
                       alt={t(`products.${product.key}.name`)}

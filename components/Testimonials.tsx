@@ -50,7 +50,7 @@ export default function Testimonials() {
   }, { scope: containerRef });
 
   return (
-    <section id="testimonials" ref={containerRef} className="relative w-full text-cream-white min-h-[70vh] flex flex-col justify-center py-40 overflow-hidden">
+    <section id="testimonials" ref={containerRef} className="relative w-full text-cream-white min-h-[70vh] flex flex-col justify-center py-20 md:py-40 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image 
@@ -70,7 +70,7 @@ export default function Testimonials() {
         <span className="eyebrow text-olive-gold mb-12 block drop-shadow-sm">{t('eyebrow')}</span>
         
         {/* Quote Carousel */}
-        <div className="relative w-full h-[50vh] md:h-[40vh] flex items-center justify-center">
+        <div className="relative w-full min-h-[40vh] md:min-h-[35vh] flex items-center justify-center">
           {testimonialsData.map((tData, idx) => (
             <div 
               key={idx}
@@ -109,7 +109,7 @@ export default function Testimonials() {
         <div className="flex items-center gap-8 mt-12">
           <button 
             onClick={prev}
-            className="w-10 h-10 flex items-center justify-center border border-cream-white/30 rounded-full hover:bg-cream-white hover:text-[#5F6347] transition-colors group"
+            className="w-11 h-11 flex items-center justify-center border border-cream-white/30 rounded-full hover:bg-cream-white hover:text-[#5F6347] transition-colors group"
             aria-label="Previous testimonial"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="group-hover:-translate-x-0.5 transition-transform">
@@ -132,7 +132,7 @@ export default function Testimonials() {
 
           <button 
             onClick={next}
-            className="w-10 h-10 flex items-center justify-center border border-cream-white/30 rounded-full hover:bg-cream-white hover:text-[#5F6347] transition-colors group"
+            className="w-11 h-11 flex items-center justify-center border border-cream-white/30 rounded-full hover:bg-cream-white hover:text-[#5F6347] transition-colors group"
             aria-label="Next testimonial"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="group-hover:translate-x-0.5 transition-transform">

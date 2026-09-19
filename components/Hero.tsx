@@ -66,14 +66,14 @@ export default function Hero() {
       {/* Content - Asymmetrical Editorial Layout */}
       <div className="relative z-20 w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col">
         <div className="md:w-2/3">
-          <h1 className="text-8xl md:text-[12rem] font-display text-cream-white tracking-tighter leading-none mb-2 ml-[-0.05em]">
+          <h1 className="text-5xl sm:text-7xl md:text-[12rem] font-display text-cream-white tracking-tighter leading-none mb-2 ml-[-0.05em]">
             {t('title1')}
           </h1>
-          <h2 className="text-3xl md:text-6xl font-display text-cream-white tracking-tight mb-8 ml-1">
+          <h2 className="text-xl sm:text-2xl md:text-6xl font-display text-cream-white tracking-tight mb-8 ml-1">
             {t('title2')}
           </h2>
           <div className="pl-2 md:pl-4 border-l border-olive-gold/40">
-            <p className="text-xl md:text-3xl font-body text-beige max-w-lg font-light leading-relaxed">
+            <p className="text-base sm:text-xl md:text-3xl font-body text-beige max-w-lg font-light leading-relaxed">
               {t('subtitle1')} <br />
               {t('subtitle2')}
             </p>
@@ -82,7 +82,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll Cue */}
-      <div className="absolute bottom-12 right-12 md:right-24 z-20 flex flex-col items-end gap-4">
+      <div className="absolute bottom-8 right-6 md:bottom-12 md:right-24 z-20 flex flex-col items-end gap-4">
         <span className="eyebrow text-xs text-olive-gold tracking-widest">{t('scroll')}</span>
         <div className="w-[1px] h-24 bg-stone/20 relative overflow-hidden origin-top">
           <div className="absolute top-0 left-0 w-full h-1/2 bg-olive-gold animate-[scroll_2.5s_ease-in-out_infinite]" />

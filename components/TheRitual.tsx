@@ -78,10 +78,10 @@ export default function TheRitual() {
         {stepsData.map((step, index) => (
           <div 
             key={index} 
-            className="ritual-step w-screen h-full flex flex-col md:flex-row items-center justify-center px-6 md:px-24 gap-12"
+            className="ritual-step w-screen h-full flex flex-col md:flex-row items-center justify-center px-6 md:px-24 gap-6 md:gap-12"
           >
             {/* Image Box */}
-            <div className="w-full md:w-1/2 h-[45vh] md:h-[65vh] relative overflow-hidden group">
+            <div className="w-full md:w-1/2 h-[35vh] md:h-[65vh] relative overflow-hidden group">
               <Image 
                 src={step.img}
                 alt={t(`steps.${step.key}.title`)}
@@ -93,10 +93,10 @@ export default function TheRitual() {
             
             {/* Text Box */}
             <div className="w-full md:w-1/3 flex flex-col">
-              <span className="text-6xl md:text-8xl font-display text-ink mb-4 tracking-tighter">
+              <span className="text-5xl md:text-8xl font-display text-ink mb-4 tracking-tighter">
                 {step.num}
               </span>
-              <h3 className="text-3xl md:text-4xl font-display mb-6 pb-6 border-b border-stone/50 uppercase">
+              <h3 className="text-2xl md:text-4xl font-display mb-6 pb-6 border-b border-stone/50 uppercase">
                 {t(`steps.${step.key}.title`)}
               </h3>
               <p className="text-lg font-body font-light text-ink/80 leading-relaxed max-w-md">

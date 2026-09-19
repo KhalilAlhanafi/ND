@@ -43,7 +43,7 @@ export default function BrandStory() {
     <section 
       id="philosophy"
       ref={containerRef} 
-      className="w-full min-h-screen bg-taupe text-ink py-24 md:py-32 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-16 md:gap-24"
+      className="w-full min-h-0 md:min-h-screen bg-taupe text-ink py-24 md:py-32 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-10 md:gap-24"
     >
       {/* Left: Video */}
       <div className="w-full md:w-1/2 h-[60vh] md:h-[80vh] relative overflow-hidden">
@@ -65,7 +65,7 @@ export default function BrandStory() {
           {t('heading')}
         </h2>
         
-        <div className="space-y-6 text-lg md:text-xl font-light font-body max-w-xl">
+        <div className="space-y-6 text-base md:text-xl font-light font-body max-w-xl">
           <p>
             {t('p1')}
           </p>
