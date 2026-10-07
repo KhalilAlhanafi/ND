@@ -223,7 +223,7 @@ export default function TheCollection() {
 
                   <div className="product-text flex items-center justify-between w-full">
                     <a
-                      href={`https://wa.me/60184058039?text=${encodeURIComponent(`Hello, I want to buy this product: ${product.englishName}`)}`}
+                      href={`https://wa.me/601168280790?text=${encodeURIComponent(`Hello, I want to buy this product: ${product.englishName}`)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-sage text-cream-white w-full md:w-auto text-center px-8 py-4 uppercase tracking-widest text-xs font-bold hover:bg-stone transition-colors duration-300 ml-auto"

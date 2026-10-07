@@ -42,7 +42,7 @@ export default function Footer() {
           <div>
             <h4 className="font-body text-xs uppercase tracking-widest text-ink font-bold mb-6">{t('connect')}</h4>
             <ul className="flex flex-col gap-3 font-body text-sm text-ink">
-              <li><a href="https://www.instagram.com/ndnatural_products?igsi=MXI4cHhweWNxaHRocQ==" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold hover:text-ink/70 transition-colors">
+              <li><a href="https://www.instagram.com/ndnaturalproducts?stkn=MTV6ZDFqMThwdjRzYw==" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold hover:text-ink/70 transition-colors">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" /></svg>
                 Instagram
               </a></li>
@@ -50,9 +50,9 @@ export default function Footer() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.6 6.7a5.4 5.4 0 0 1-3.3-1.1 5.4 5.4 0 0 1-2-3.1h-3.2v12.6a2.6 2.6 0 1 1-1.8-2.5V9.3a5.8 5.8 0 1 0 5 5.7V9.2a8.6 8.6 0 0 0 5.300 1.800z" /></svg>
                 TikTok
               </a></li>
-              <li><a href="https://wa.me/60184058039" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold hover:text-ink/70 transition-colors">
+              <li><a href="https://wa.me/601168280790" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold hover:text-ink/70 transition-colors">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 21l1.65-4.8A8.5 8.5 0 1 1 8 19.4L3 21z" /><path d="M9 10c0 3 2 5 5 5l1.5-1.5-2-1-1 .8c-.8-.4-1.4-1-1.8-1.8l.8-1-1-2L9 10z" fill="currentColor" stroke="none" /></svg>
-                WhatsApp: +60 18-405 8039
+                WhatsApp: +60 11-6828 0790
               </a></li>
               <li><a href="#journal" className="hover:text-ink/70 transition-colors">{t('links.journal')}</a></li>
               <li><a href="mailto:Ndnaturalproducts@gmail.com" className="hover:text-ink/70 transition-colors break-all">Ndnaturalproducts@gmail.com</a></li>
