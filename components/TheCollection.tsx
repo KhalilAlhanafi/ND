@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -15,12 +15,14 @@ const productsData = [
   {
     id: "laurel-soap",
     key: "soap",
+    englishName: "Laurel Soap",
     image: "/product_collection_soap_v2.jpg",
   },
   {
     id: "castor-oil",
     key: "oil",
-    image: "/product_collection_oil_v3.jpg",
+    englishName: "Castor Oil",
+    image: "/product_collection_oil_v4.jpg",
     secondaryImages: [
       {
         src: "/castor-results.jpg",
@@ -39,6 +41,7 @@ const productsData = [
 export default function TheCollection() {
   const containerRef = useRef<HTMLElement>(null);
   const t = useTranslations('TheCollection');
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
   useGSAP(() => {
     if (!containerRef.current) return;
@@ -86,22 +89,22 @@ export default function TheCollection() {
   }, { scope: containerRef });
 
   return (
-    <section id="collection" ref={containerRef} className="w-full bg-[#121E26] text-cream-white pt-32 pb-32">
+    <section id="collection" ref={containerRef} className="w-full bg-[#121E26] text-cream-white py-16 md:py-32">
       <div className="max-w-screen-2xl mx-auto px-6 md:px-12">
         <div className="mb-12 md:mb-40 text-center">
           <span className="eyebrow text-olive-gold mb-4 block">{t('eyebrow')}</span>
           <h2 className="text-4xl md:text-6xl font-display">{t('heading')}</h2>
         </div>
 
-        <div className="flex flex-col gap-16 md:gap-64">
+        <div className="flex flex-col gap-14 md:gap-64">
           {productsData.map((product, index) => {
             const isEven = index % 2 === 0;
-            
+
             // Explicitly cast or handle translation arrays
             // next-intl raw() returns the underlying value (e.g. array)
             const benefits = t.raw(`products.${product.key}.benefits`) as string[] | undefined;
             const ingredients = t.raw(`products.${product.key}.ingredients`) as string[] | undefined;
-            
+
             // Some optional string fields
             const tagline = t.has(`products.${product.key}.tagline`) ? t(`products.${product.key}.tagline`) : null;
             const applicationNote = t.has(`products.${product.key}.applicationNote`) ? t(`products.${product.key}.applicationNote`) : null;
@@ -111,12 +114,12 @@ export default function TheCollection() {
               <div
                 key={product.id}
                 className={`product-section flex flex-col ${isEven ? "md:flex-row" : "md:flex-row-reverse"
-                  } items-center gap-12 md:gap-24`}
+                  } items-center gap-8 md:gap-24`}
               >
                 {/* Image Column */}
-                <div className="w-full md:w-3/5 flex flex-col gap-6">
+                <div className="w-full md:w-3/5 flex flex-col gap-4 md:gap-6">
                   {/* Main Image */}
-                  <div className="w-full h-[50vh] md:h-[85vh] relative overflow-hidden group">
+                  <div className="w-full aspect-[4/5] max-h-[60vh] md:aspect-auto md:max-h-none md:h-[85vh] relative overflow-hidden group">
                     <Image
                       src={product.image}
                       alt={t(`products.${product.key}.name`)}
@@ -129,7 +132,7 @@ export default function TheCollection() {
                   {/* Secondary Images */}
                   {/* @ts-ignore */}
                   {product.secondaryImages && (
-                    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
+                    <div className="w-full grid grid-cols-2 gap-3 md:gap-6 mt-2">
                       {/* @ts-ignore */}
                       {product.secondaryImages.map((img, idx) => (
                         <div key={idx} className="flex flex-col gap-3">
@@ -152,7 +155,7 @@ export default function TheCollection() {
 
                 {/* Text Content */}
                 <div className="w-full md:w-2/5 flex flex-col items-start">
-                  <h3 className="product-text text-4xl md:text-5xl font-display mb-4 text-cream-white">
+                  <h3 className="product-text text-3xl md:text-5xl font-display mb-4 text-cream-white">
                     {t(`products.${product.key}.name`)}
                   </h3>
                   {tagline && (
@@ -160,7 +163,7 @@ export default function TheCollection() {
                       {tagline}
                     </p>
                   )}
-                  <p className="product-text text-lg font-body font-light leading-relaxed mb-10 text-cream-white/70 whitespace-pre-line">
+                  <p className="product-text text-base md:text-lg font-body font-light leading-relaxed mb-6 md:mb-10 text-cream-white/70 whitespace-pre-line">
                     {t(`products.${product.key}.description`)}
                   </p>
 
@@ -177,6 +180,7 @@ export default function TheCollection() {
                     </div>
                   )}
 
+                  <div className={`${expanded[product.id] ? "block" : "hidden"} md:block w-full`}>
                   {ingredients && ingredients.length > 0 && (
                     <div className="product-text w-full mb-6">
                       <span className="eyebrow text-olive-gold block mb-4">{t('ingredients')}</span>
@@ -205,11 +209,27 @@ export default function TheCollection() {
                     </p>
                   )}
                   {(!note) && <div className="w-full mb-10 pb-10 border-b border-cream-white/20" />}
+                  </div>
+
+                  {((ingredients && ingredients.length > 0) || applicationNote || note) && (
+                    <button
+                      type="button"
+                      onClick={() => setExpanded((s) => ({ ...s, [product.id]: !s[product.id] }))}
+                      className="md:hidden text-olive-gold text-xs uppercase tracking-widest font-bold mb-6 underline underline-offset-4"
+                    >
+                      {expanded[product.id] ? t('showLess') : t('readMore')}
+                    </button>
+                  )}
 
                   <div className="product-text flex items-center justify-between w-full">
-                    <button className="bg-sage text-cream-white px-8 py-4 uppercase tracking-widest text-xs font-bold hover:bg-stone transition-colors duration-300 ml-auto">
+                    <a
+                      href={`https://wa.me/60184058039?text=${encodeURIComponent(`Hello, I want to buy this product: ${product.englishName}`)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-sage text-cream-white w-full md:w-auto text-center px-8 py-4 uppercase tracking-widest text-xs font-bold hover:bg-stone transition-colors duration-300 ml-auto"
+                    >
                       {t('shopNow')}
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
